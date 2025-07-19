@@ -1,0 +1,236 @@
+<section class="journey-section" id="education">
+  <h2 class="heading">My <span>Journey</span></h2>
+
+  <!-- Navigation Tabs -->
+  <nav class="tab-nav">
+    <button class="tab-btn active" data-target="edu-tab">🎓 Education</button>
+    <button class="tab-btn" data-target="exp-tab">💼 Experience</button>
+    <button class="tab-btn" data-target="cert-tab">📜 Certifications</button>
+  </nav>
+
+  <!-- Tab Contents -->
+  <div class="tab-content-wrapper">
+    <!-- Education Tab -->
+    <div id="edu-tab" class="tab-panel active">
+      <div class="card">
+        <h3>🎓 B.Tech Information Technology</h3>
+        <p><strong>College:</strong> St. Joseph's College Of Engineering - OMR</p>
+        <p><strong>Duration:</strong> 2022 - 2026</p>
+        <p><strong>CGPA:</strong> 8.97</p>
+      </div>
+    </div>
+
+    <!-- Experience Tab -->
+   <!-- Experience Tab -->
+<div id="exp-tab" class="tab-panel">
+  <div class="internship-section">
+    
+    <!-- NSIC Internship -->
+    <div class="internship-box">
+      <h3>🖥️ Web Development Intern</h3>
+      <p><strong>Organization:</strong> NSIC – Guindy (Govt. of India Approved)</p>
+      <p><strong>Duration:</strong> 15 days</p>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+      <ul>
+        <li>Built a personal portfolio website with a responsive and modern UI.</li>
+        <li>Showcased profile, academic, and project details cleanly.</li>
+        <li>Completed under official mentorship with Govt. of India recognition.</li>
+      </ul>
+    </div>
+
+    <!-- Stigmata Internship -->
+    <div class="internship-box">
+      <h3>🖥️ Software Developer Intern</h3>
+      <p><strong>Organization:</strong> Stigmata Techno Solutions</p>
+      <p><strong>Duration:</strong> 26th May – 29th June 2025</p>
+      <p><strong>Technologies:</strong> Java, Spring Boot, MySQL, Thymeleaf, AWS</p>
+      <ul>
+        <li><strong>Resume Builder:</strong> Form-driven resume generation with MySQL & Thymeleaf.</li>
+        <li><strong>Support System:</strong> Role-based issue management for customers, agents & admins.</li>
+        <li><strong>AWS Auto-Remediation:</strong> CloudWatch-triggered Lambda restarts Apache via SSM; sends alert via SNS.</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+
+    <!-- Certifications Tab -->
+    <div id="cert-tab" class="tab-panel">
+      <div class="cert-grid">
+        <div class="cert-card"><h4>Typewriting</h4><p>English & Tamil (Higher Grade – Govt)</p></div>
+        <div class="cert-card"><h4>Programming in Java</h4><p>NPTEL</p></div>
+        <div class="cert-card"><h4>Problem Solving in C</h4><p>NPTEL</p></div>
+        <div class="cert-card"><h4>DSA using Java</h4><p>NPTEL</p></div>
+        <div class="cert-card"><h4>Java Fundamentals</h4><p>Oracle</p></div>
+        <div class="cert-card"><h4>Data Structures (Java)</h4><p>Infosys SpringBoard</p></div>
+        <div class="cert-card"><h4>Intro to Front-End Dev</h4><p>Coursera</p></div>
+        <div class="cert-card"><h4>HTML, CSS, SQL</h4><p>PrepInsta</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  :root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+  }
+
+  body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .journey-section {
+    padding: 40px 20px;
+    background: var(--bg-color);
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: var(--main-color);
+  }
+
+  .tab-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+
+  .tab-btn {
+    padding: 10px 20px;
+    border: none;
+    background: var(--second-bg-color);
+    color: var(--text-color);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .tab-btn.active {
+    background: var(--main-color);
+    color: #000;
+  }
+
+  .tab-content-wrapper {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .tab-panel {
+    display: none;
+    animation: fadeIn 0.4s ease-in-out;
+  }
+
+  .tab-panel.active {
+    display: block;
+  }
+
+  .internship-section {
+  display: flex;
+  justify-content: center;
+  gap: 4cm;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.internship-box {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  padding: 20px;
+  border: 2px solid var(--main-color);
+  border-radius: 12px;
+  background-color: var(--second-bg-color);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  color: var(--text-color);
+}
+
+
+  .card {
+    background: var(--second-bg-color);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  }
+
+  .accordion-item {
+    background: var(--second-bg-color);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+
+  .accordion-header {
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-weight: bold;
+    background: var(--main-color);
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .accordion-body {
+    display: none;
+    padding: 15px;
+    background: var(--second-bg-color);
+  }
+
+  .cert-grid {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .cert-card {
+    background: var(--second-bg-color);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    color: var(--text-color);
+  }
+
+  .cert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+
+<script>
+  // Tab switching
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(btn.dataset.target).classList.add('active');
+    });
+  });
+
+  // Accordion toggle
+  document.querySelectorAll('.accordion-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const body = header.nextElementSibling;
+      body.style.display = (body.style.display === "block") ? "none" : "block";
+    });
+  });
+</script>
